@@ -40,7 +40,7 @@ class Login extends React.Component{
             <h1>QFit</h1>
             <input type="text" placeholder = "Username" value = {this.state.email} onChange={this.handleUsernameChange}/>
             <br/>
-            <input type="text" placeholder = "Password" value = {this.state.password} onChange={this.handlePasswordChange}/>
+            <input type="password" placeholder = "Password" value = {this.state.password} onChange={this.handlePasswordChange}/>
             <br/>
             <button type="submit" onClick={this.handleLogin}>Login</button>
             <p onClick = {this.handleCreate}>Create Account</p>
